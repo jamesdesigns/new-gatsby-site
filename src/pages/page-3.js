@@ -10,6 +10,7 @@ import LandlineMonitoring from '../images/landline-monitoring.svg'
 import Thermostat from '../images/thermostat.svg'
 import SmartLightBulb from '../images/smart-lightbulb.svg'
 import Innovation from '../images/innovation.svg'
+import Commercial from '../images/commercial-exterior.jpg'
 import { css } from '@emotion/core'
 
 import Layout from "../components/layout"
@@ -32,6 +33,7 @@ const ThirdPage = ({ children }) => (
         `
         }>Vio Business Security Systems</h1>
       <h4 css={css`text-align: left`}>Tomorrow's tech, today's security.</h4>
+      <img src={Commercial} alt="" />
     </Hero>
     <Columns>
         <h2 css={css`
