@@ -12,11 +12,14 @@ export const Icon = styled.img({
 })
 
 export const Content = styled.p({
-    maxWidth: 350
+    maxWidth: 350,
+    fontWeight: 400
 })
 
 export const Subtitle = styled.h3({
     fontsize: 28,
+    fontFamily: 'poppins',
+    fontWeight: 600
 })
 
 export const List = styled.ul({
