@@ -3,9 +3,11 @@ import { Link } from "gatsby"
 
 export const Header = styled.header(
     ({theme}) => ({
-        backgroundColor: theme.color.light
+        backgroundColor: theme.color.light,
+        margin: theme.margin
     })
 )
+
 
 export const TitleWrapper = styled.div(
     props => (`

@@ -3,10 +3,11 @@ import styled from '@emotion/styled'
 
 export const Main = styled.div({
     textAlign: 'center',
-    maxWidth: 1500,
+    width: '50%',
     fontFamily: 'poppins',
     fontWeight: 400,
     display: 'block',
+    color: 'white',
     height: 550
 })
 
