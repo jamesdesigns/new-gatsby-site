@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Hero from '../components/hero/hero'
 import Columns from '../components/columns/columns'
 import SideBySides from '../components/sideByside/sideByside'
 import IconCard from '../components/iconCard/iconCard'
@@ -21,7 +22,9 @@ import BulletPoints from "../components/bulletPoints/bulletPoints"
 const ThirdPage = ({ children }) => (
   <Layout>
     <SEO title="Page three" />
-
+    <Hero>
+      <h1>Test</h1>
+    </Hero>
     <Columns>
         <h2 css={css`
         font-size: 45px;
