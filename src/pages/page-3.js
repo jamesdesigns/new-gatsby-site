@@ -25,13 +25,14 @@ const ThirdPage = ({ children }) => (
     <Columns>
         <h2 css={css`
         font-size: 45px;
-        font-weight: bolder;
+        font-family: poppins;
+        font-weight: 700;
         padding-top: 80px;
         `
         }>Flexible Monitoring Options</h2>
         <h4 css={css`
         margin-top: -10px;
-        font-size: 24px;
+        font-size: 28px;
         `}>Solutions for every business</h4>
         <p>Vio Security creates custom business security packages and plans. That means no matter the size of your business, no matter the industry, we'll cultivate the proper business security system for you.</p>
         <div css={css`
@@ -52,7 +53,8 @@ const ThirdPage = ({ children }) => (
     <BulletPoints>
       <h2 css={css`
         font-size: 45px;
-        font-weight: bolder;
+        font-family: poppins;
+        font-weight: 700;
         padding-top: 80px;
         `
         }>Save Energy, Save Money</h2>

@@ -17,7 +17,7 @@ export const Content = styled.p({
 })
 
 export const Subtitle = styled.h3({
-    fontsize: 28,
+    fontsize: 30,
     fontFamily: 'poppins',
     fontWeight: 600
 })

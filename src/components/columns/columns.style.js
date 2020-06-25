@@ -10,5 +10,10 @@ export const Intro = styled.div({
     height: 650
 })
 
+export const Header = styled.h1({
+    fontFamily: 'poppins',
+    fontWeight: 900
+})
+
 
 
