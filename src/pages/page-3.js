@@ -24,7 +24,7 @@ const ThirdPage = ({ children }) => (
   <Layout>
     <SEO title="Page three" />
     <Hero>
-      <h1  css={css`
+      <h1 css={css`
         font-size: 50px;
         font-family: poppins;
         font-weight: 800;
@@ -33,7 +33,8 @@ const ThirdPage = ({ children }) => (
         `
         }>Vio Business Security Systems</h1>
       <h4 css={css`text-align: left`}>Tomorrow's tech, today's security.</h4>
-      <img src={Commercial} alt="" />
+      {/* <img src={Commercial} alt="" /> */}
+      <
     </Hero>
     <Columns>
         <h2 css={css`
