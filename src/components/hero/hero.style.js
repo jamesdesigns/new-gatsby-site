@@ -6,13 +6,13 @@ export const Main = styled.div({
     width: '50%',
     fontFamily: 'poppins',
     fontWeight: 400,
-    display: 'block',
     color: 'white',
-    height: 550
+    height: 550,
+    display: 'flex'
 })
 
 export const HeroImg = styled.img({
-    width: '50%',
+    width: '50%'
 })
 
 export const Header = styled.h1({
@@ -24,5 +24,5 @@ export const FullHeroContainer = styled.section({
     backgroundColor: 'black',
     margin: '0 -9999rem',
     padding: '0.25rem 9999rem',
-    display: 'flex'
+    height: 550
 })

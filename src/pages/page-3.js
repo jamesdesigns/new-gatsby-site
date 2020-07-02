@@ -24,7 +24,10 @@ const ThirdPage = ({ children }) => (
   <Layout>
     <SEO title="Page three" />
     <Hero>
+      <div>
       <h1 css={css`
+        display: block;
+        width: 600px;
         font-size: 50px;
         font-family: poppins;
         font-weight: 800;
@@ -32,9 +35,13 @@ const ThirdPage = ({ children }) => (
         text-align: left;
         `
         }>Vio Business Security Systems</h1>
-      <h4 css={css`text-align: left`}>Tomorrow's tech, today's security.</h4>
-      {/* <img src={Commercial} alt="" /> */}
-      <
+      <h4 css={css`
+      text-align: left;
+      font-size: 32px;
+      `}>Tomorrow's tech, today's security.</h4>
+      </div>
+      <img src={Commercial} alt="" />
+
     </Hero>
     <Columns>
         <h2 css={css`
@@ -63,7 +70,7 @@ const ThirdPage = ({ children }) => (
           </IconCard>
         </div>
     </Columns>
-    <SideBySides>Test</SideBySides>
+    <SideBySides />
     <BulletPoints>
       <h2 css={css`
         font-size: 45px;
